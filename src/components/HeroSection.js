@@ -1,3 +1,4 @@
+import SimpleForm from "../routes/Chat";
 import "./HeroStyles.css"
 
 function HeroSection(props){ 
@@ -6,8 +7,7 @@ function HeroSection(props){
         <div className={props.cName} style={{ 
             display: 'flex',
             justifyContent: 'center',
-            alignItems: 'center',
-            height: "710px"
+            alignItems: 'center'
             }}>
             <img alt="farm" src={props.heroImg} />
         </div>
@@ -19,6 +19,7 @@ function HeroSection(props){
             
             <a href={props.url} className={props.btnClass}> {props.buttonText} &#8594;</a>
         </div>
+        <SimpleForm/>
         </>
     )
 }

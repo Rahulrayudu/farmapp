@@ -53,7 +53,7 @@ img{
 }
 
 .hero-text .show:hover{
-    background-color:#06b4ba;
+    background-color:#ee8585;
     border-radius: 8px;
     color: #fff;
     transition: all 0.2s ease-in-out;
