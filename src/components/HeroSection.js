@@ -1,6 +1,6 @@
 import SimpleForm from "../routes/Chat";
 import "./HeroStyles.css"
-
+import { HashLink as Link } from "react-router-hash-link";
 function HeroSection(props){ 
     return(
         <> 
@@ -17,7 +17,7 @@ function HeroSection(props){
             
             <p>{props.text}</p>
             
-            <a href={props.url} className={props.btnClass}> {props.buttonText} &#8594;</a>
+            <Link to={props.url} className={props.btnClass} smooth> {props.buttonText} &#8594;</Link>
         </div>
         <SimpleForm/>
         </>

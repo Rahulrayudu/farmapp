@@ -2,7 +2,7 @@ import { Component } from "react";
 import "./NavbarStyles.css";
 import { Link } from "react-router-dom";
 import { MenuItems } from "./MenuItems";
-
+import { HashLink as Lin } from "react-router-hash-link";
 
 class Navbar extends Component{
     state = { clicked: false};
@@ -12,7 +12,7 @@ class Navbar extends Component{
     render(){
         return(
             <nav className="NavbarItems">
-                <h1 className="navbar-logo">ArgiBot</h1>
+                <h1 className="navbar-logo">AgriBot</h1>
 
                 <div className="menu-icons" onClick={this.handleClick}>
                     <i className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}></i>
@@ -22,10 +22,10 @@ class Navbar extends Component{
                     {MenuItems.map((item,index)=>{
                         return(
                             <li key={index}>
-                                <Link className={item.cName} to={item.url}>
+                                <Lin className={item.cName} to={item.url} smooth>
                                     <i className={item.icon}>
                                     </i>{item.title}
-                                </Link>
+                                </Lin>
                             </li>
                         )
                     })}

@@ -6,12 +6,6 @@ export const MenuItems = [
         icon : "fa-sharp fa-solid fa-house"
     },
     {
-        title : "Service",
-        url : "/service",
-        cName : "nav-links",
-        icon : "fa-sharp fa-solid fa-briefcase"
-    },
-    {
         title : "About",
         url : "/about",
         cName : "nav-links",

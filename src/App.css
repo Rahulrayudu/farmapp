@@ -44,3 +44,174 @@
     transform: rotate(360deg);
   }
 }
+
+
+.bo_ser{
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.app {
+  margin: 2rem;
+  position: relative;
+}
+
+
+.cards {
+  margin-top: 120px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.card {
+  box-shadow: 0 0 10px 5px #e1e5ee;
+  border-radius: 12px;
+  min-width: 28rem;
+  display: flex;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-color: #1163ba;
+}
+
+
+.img1 {
+  width: 14rem;
+  height: 11rem;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.card-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.card-title {
+  line-height: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-description {
+  line-height: 1.2rem;
+}
+
+
+.card-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.card-button:hover {
+  background-color: #0056b3;
+}
+
+.card-button::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  transition: width 0.3s ease;
+}
+
+.card-button:hover::after {
+  width: 100%;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.card-button:hover {
+  animation: pulse 1s infinite;
+}
+
+@media screen and (min-width: 300px) {
+  .cards {
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
+  }
+
+  .card {
+    flex-direction: column;
+    text-align: center;
+    min-width: 14rem;
+  }
+}
+
+
+/* Responsive CSS for Drag and Drop Container */
+
+.img1_drag_drop{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+
+
+.im_drag{
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.drag-drop-container {
+  position: absolute;
+  top: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 100%;
+}
+
+.drop_area{
+  background: #fff;
+  height: 150px;
+}
+/* Media Queries for Responsive Design */
+
+@media (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+  .drag-drop-container {
+    height: 50vh;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Adjust styles for even smaller screens */
+  .drag-drop-container {
+    height: 30vh;
+  }
+}
+
+
+
+
