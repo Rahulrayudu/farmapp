@@ -28,7 +28,7 @@ const Service = () => {
           imageUrl: 'https://mdbootstrap.com/img/new/standard/nature/184.webp',
           title: 'Crop Disease',
           description: 'detect the crop disease.',
-          buttonUrl: '/DragDrop',
+          buttonUrl: '/FileUploadForm',
         },
         {
           imageUrl: 'https://mdbootstrap.com/img/new/standard/nature/184.webp',

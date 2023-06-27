@@ -4,7 +4,7 @@ import Home from './routes/Home';
 import Service from './routes/Service';
 import About from './routes/About';
 import Contact from './routes/Contact';
-import DragDrop from './routes/drag';
+import FileUploadForm from './routes/FileUploadForm';
 import "./App.css"
 import {HashLink as Link} from "react-router-hash-link";
 function App() {
@@ -15,7 +15,7 @@ function App() {
         <Route path="/" element={<Home/>}/>
         <Route path="/about" element={<About/>}/>
         <Route path="/contact" element={<Contact/>}/>
-        <Route path="/DragDrop" element={<DragDrop/>}/>
+        <Route path="/FileUploadForm" element={<FileUploadForm/>}/>
       </Routes>
     </div>
     </BrowserRouter>
