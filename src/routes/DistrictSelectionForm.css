@@ -1,0 +1,73 @@
+.weather-forecast {
+    text-align: center;
+    margin-top: 150px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.9); /* Slight transparency effect */
+    backdrop-filter: blur(5px); /* Apply backdrop filter for better transparency effect */
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .select:focus {
+    outline: none;
+    border-color: #5b9bd5;
+    box-shadow: 0 0 5px #5b9bd5;
+  }
+  
+  .forecast-container {
+    margin-top: 50px;
+    width: 100%; /* Full width by default */
+  }
+  
+  .forecast-card {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Slight transparency effect */
+    backdrop-filter: blur(5px); /* Apply backdrop filter for better transparency effect */
+  }
+  
+  .forecast-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .forecast-card p {
+    margin-bottom: 5px;
+  }
+  
+  /* Media Query for larger screens */
+  @media (min-width: 768px) {
+    .forecast-container {
+      width: 400px; /* Fixed width for larger screens */
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  

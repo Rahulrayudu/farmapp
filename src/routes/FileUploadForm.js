@@ -3,6 +3,7 @@ import { FileUploader } from "react-drag-drop-files";
 import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
 import agr3 from "../assets/agr4.jpg"
+import SimpleForm from "./Chat";
 
 import React, { useState } from 'react';
 import axios from 'axios';
@@ -69,6 +70,7 @@ const FileUploadForm = () => {
         </div>
       </div>
     </div>
+    <SimpleForm/>
     </>
   );
 };

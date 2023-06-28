@@ -31,16 +31,10 @@ const Service = () => {
           buttonUrl: '/FileUploadForm',
         },
         {
-          imageUrl: 'https://mdbootstrap.com/img/new/standard/nature/184.webp',
-          title: 'Card 2',
-          description: 'This is the description for Card 2.',
-          buttonUrl: 'https://mdbootstrap.com/img/new/standard/nature/184.webp',
-        },
-        {
           imageUrl: agr3,
-          title: 'Card 3',
-          description: 'This is the description for Card 3.',
-          buttonUrl: 'https://mdbootstrap.com/img/new/standard/nature/184.webp',
+          title: 'Weather Forecast',
+          description: 'detect the weather.',
+          buttonUrl: '/DistrictSelectionForm',
         },
       ];
     

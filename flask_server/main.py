@@ -97,7 +97,7 @@ def get_file_info():
 @app.route('/weather', methods=['GET'])
 def get_weather():
     city = request.args.get('city')
-    api_key = ''  # Replace with your actual API key
+    api_key = 'c4e5d78030ff473da1a173454231306'  # Replace with your actual API key
 
     if not city:
         return jsonify({'error': 'City parameter is missing.'}), 400

@@ -232,7 +232,6 @@ class SimpleForm extends Component {
                   id: 'issueOptions',
                   options: [
                     { value: 'Weather', label: 'Weather', trigger: 'Weather' },
-                    { value: 'crop price', label: 'crop price', trigger: 'Weather' },
                     { value: 'Others', label: 'Others', trigger: 'Others' },
                     { value: 'end', label: 'end', trigger: 'end-message' },
                   ],

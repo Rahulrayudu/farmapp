@@ -5,6 +5,8 @@ import Service from './routes/Service';
 import About from './routes/About';
 import Contact from './routes/Contact';
 import FileUploadForm from './routes/FileUploadForm';
+import DistrictSelectionForm from './routes/DistrictSelectionForm';
+
 import "./App.css"
 import {HashLink as Link} from "react-router-hash-link";
 function App() {
@@ -16,6 +18,7 @@ function App() {
         <Route path="/about" element={<About/>}/>
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/FileUploadForm" element={<FileUploadForm/>}/>
+        <Route path="/DistrictSelectionForm" element={<DistrictSelectionForm/>}/>
       </Routes>
     </div>
     </BrowserRouter>
