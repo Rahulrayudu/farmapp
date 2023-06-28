@@ -85,7 +85,46 @@ class WeatherStep extends Component {
 
 
 
+class Aichat extends Component {
+  constructor(props) {
+    super(props);
 
+    this.state = {
+      ques: '',
+      response: '',
+    };
+  }
+
+  componentDidMount() {
+    const { steps } = this.props;
+    let ques = '';
+    ques = steps['Others'].value;
+    this.setState({ ques }, () => {
+      this.fetchResponse(ques);
+    });
+  }
+
+  fetchResponse = async (ques) => {
+    try {
+      const response = await axios.post('http://localhost:5000/ai_bot', {
+        message: ques,
+      });
+      this.setState({ response: response.data.response });
+    } catch (error) {
+      console.error(error);
+    }
+  };
+
+  render() {
+    const { response } = this.state;
+
+    return (
+      <div>
+        {response ? <p>{response}</p> : <p>Loading...</p>}
+      </div>
+    );
+  }
+}
 
 
 class SimpleForm extends Component {
@@ -194,8 +233,8 @@ class SimpleForm extends Component {
                   options: [
                     { value: 'Weather', label: 'Weather', trigger: 'Weather' },
                     { value: 'crop price', label: 'crop price', trigger: 'Weather' },
-                    { value: 'Varities of crops', label: 'Varities of crops', trigger: 'Weather' },
-                    { value: 'Pesticides', label: 'Pesticides', trigger: 'Weather' },
+                    { value: 'Others', label: 'Others', trigger: 'Others' },
+                    { value: 'end', label: 'end', trigger: 'end-message' },
                   ],
                 },
                 {
@@ -208,11 +247,23 @@ class SimpleForm extends Component {
                   component: <WeatherStep/>,
                   waitAction: true,
                   asMessage: true,
-                  end: true,
+                  trigger: 'issues',
+                },
+                {
+                  id: 'Others',
+                  user:true,
+                  trigger: "show_chat",
+                },
+                {
+                  id: "show_chat",
+                  component: <Aichat/>,
+                  waitAction: true,
+                  asMessage: true,
+                  trigger: 'issues',
                 },
                 {
                   id: 'end-message',
-                  message: 'Thanks! Your data was submitted successfully!',
+                  message: 'Thanks You!',
                   end: true,
                 },
               ]}
