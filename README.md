@@ -57,7 +57,7 @@ Before running the project, make sure you have the following prerequisites insta
 
 # Demo Video
 
-[![Alt Text](thumbnail_image_url)](video_url)
+[![Demo Video](./web_images/home_page.png)](./Demo_Video/video1249432899.mp4)
 
 
 # Technologies
