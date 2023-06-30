@@ -49,16 +49,16 @@ Before running the project, make sure you have the following prerequisites insta
    npm start
    ```
 3. Open your browser and visit http://localhost:3000 to access the AI chatbot for farmers.
-
-  ![AgriBot: An AI-Powered Farmer's Companion](./web_images/home_page.png)
+   ![AgriBot: An AI-Powered Farmer's Companion](./web_images/home_page.png)
 
 4. Chat with the bot
   ![AgriBot](./web_images/chat.png)
 
-# Demo Video
+5. Crop disease classification
+  ![AgriBot_crop](./web_images/crop.png)
 
-[![Demo Video](./web_images/home_page.png)](./Demo_Video/video1249432899.mp4)
-
+6. Weather forecasting
+ ![AgriBot_weather](./web_images/weather.png)
 
 # Technologies
 * React
