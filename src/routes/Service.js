@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
 import agr3 from "../assets/1.jpg"
-import arg from "../assets/agr4.jpg"
+import arg from "../assets/crops-growing-in-thailand.jpg"
 import React from 'react';
 import SimpleForm from "./Chat";
 import { Link } from "react-router-dom";
@@ -25,7 +25,7 @@ const CardBox = ({ imageUrl, title, description, buttonUrl }) => {
 const Service = () => {
     const cardData = [
         {
-          imageUrl: 'https://mdbootstrap.com/img/new/standard/nature/184.webp',
+          imageUrl: arg,
           title: 'Crop Disease',
           description: 'detect the crop disease.',
           buttonUrl: '/FileUploadForm',

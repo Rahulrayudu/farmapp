@@ -1,7 +1,9 @@
 import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
-import agr3 from "../assets/agr4.jpg"
+import agr3 from "../assets/agr4.jpg";
 import Service from "./Service";
+
+
 function Home(){
     return(
         <>

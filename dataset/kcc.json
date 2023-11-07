@@ -1,0 +1,145 @@
+{
+  "intents": [
+    {
+      "tag": "GOURD VARIETIES",
+      "patterns": [
+        "ridge gourd varieties",
+        "ridge gourd varieties in Telangana",
+        "poṭlakāya varieties",
+        "best ridge gourd types",
+        "top ridge gourd options",
+        "varieties of poṭlakāya"
+      ],
+      "responses": [
+        "RIDGE GOURD VARIETIES: Sureka, Sanjivani, Mahima, NS-3, 401, 403"
+      ],
+      "context": ""
+    },
+    {
+      "tag": "BEANS SOWING",
+      "patterns": [
+        "beans sowing time?",
+        "beans sowing time in Telangana",
+        "when to plant beans?",
+        "best time for bean sowing"
+      ],
+      "responses": ["BEANS SOWING TIME: June - July"],
+      "context": ""
+    },
+    {
+      "tag": "Plant Protection",
+      "patterns": [
+        "white fly management in cucumber",
+        "white fly management",
+        "how to protect cucumber from white fly",
+        "preventing white fly damage"
+      ],
+      "responses": [
+        "RECOMMENDED TO SPRAY ACEPHATE (ARTHIN) 300 GRAMS/200 LITRES OF WATER/ACRE",
+        "OR",
+        "RECOMMENDED TO SPRAY THIAMETHOXAM (ACTARA/CRUISER) 40 GRAMS/200 LITRES OF WATER/ACRE"
+      ],
+      "context": ""
+    },
+    {
+      "tag": "BASMATI Seeds",
+      "patterns": [
+        "basmati seed varieties?",
+        "basmati seed varieties in Telangana?",
+        "paddy basmati varieties",
+        "types of basmati rice seeds"
+      ],
+      "responses": [
+        "Some Basmati seed varieties include Basmati 217, Basmati 370, Type 3 (Dehraduni Basmati), Punjab Basmati 1 (Bauni Basmati), Pusa Basmati 1, Kasturi, Haryana Basmati 1, Mahi Sugandha, Taraori Basmati (HBC 19 / Karnal Local), Ranbir Basmati, Basmati 386, Improved Pusa Basmati 1 (Pusa 1460), Pusa Basmati 1121 (After amendment), Vallabh Basmati 22, Pusa Basmati 6 (Pusa 1401), Punjab Basmati 2, Basmati CSR 30 (After amendment), Malviya Basmati Dhan 10-9 (IET 21669), Vallabh Basmati 21 (IET 19493), Pusa Basmati 1509 (IET 21960), Basmati 564, Vallabh Basmati 23, Vallabh Basmati 24, Pusa Basmati 1609, Pant Basmati 1 (IET 21665), Pant Basmati 2 (IET 21953), Punjab Basmati 3, Pusa Basmati 1637, Pusa Basmati 1728, Pusa Basmati 1718, Punjab Basmati 4, Punjab Basmati 5, Haryana Basmati 2, and Pusa Basmati 1692."
+      ],
+      "context": ""
+    },
+    {
+      "tag": "RNR PADDY SEEDS",
+      "patterns": [
+        "sowing time of RNR paddy seeds?",
+        "sowing time of RNR paddy seeds in Telangana",
+        "best time to plant RNR paddy seeds",
+        "RNR paddy sowing season"
+      ],
+      "responses": ["RECOMMENDED TO SOW FROM JUNE 3RD WEEK"],
+      "context": ""
+    },
+    {
+      "tag": "CLUSTER BEANS",
+      "patterns": [
+        "varieties of cluster beans",
+        "varieties of cluster beans in Telangana",
+        "best cluster bean types",
+        "top choices for cluster beans"
+      ],
+      "responses": ["RECOMMENDED VARIETIES ARE PUSA SADHABAHAR, PUSA MOUSAMI, PUSA NAVA BAHAR"],
+      "context": ""
+    },
+    {
+      "tag": "CHILI SOWING",
+      "patterns": [
+        "chili sowing",
+        "chili sowing time?",
+        "when to plant chili?"
+      ],
+      "responses": ["RECOMMENDED CHILI SOWING TIME: July - August"],
+      "context": ""
+    },
+    {
+      "tag": "VARIETIES OF CHILI",
+      "patterns": [
+        "varieties of chili?",
+        "varieties of chili in Telangana",
+        "best chili types for cultivation",
+        "top chili varieties"
+      ],
+      "responses": ["VARIETIES INCLUDE Sindhur (CA 960), Kiran (LCA-200), Bhaskar (LCA-233), Prakash (LCA-206), Warangal Local (Tomato Chilli)"],
+      "context": ""
+    },
+    {
+      "tag": "LEAF EATING CATERPILLER",
+      "patterns": [
+        "leaf eating caterpillar in paddy nursery management",
+        "caterpillar management",
+        "how to protect paddy nursery from caterpillars",
+        "preventing caterpillar damage"
+      ],
+      "responses": ["Acephate should be sprayed at the rate of 300 grams / 200 liters of water"],
+      "context": ""
+    },
+    {
+      "tag": "Weed Management",
+      "patterns": [
+        "weed management of Napier grass",
+        "weed management of Napier grass in Telangana",
+        "controlling weeds in Napier grass",
+        "Napier grass weed control"
+      ],
+      "responses": ["No weedicide recommendation"],
+      "context": ""
+    },
+    {
+      "tag": "FERTILIZER APPLICATION",
+      "patterns": [
+        "fertilizer application in rice cultivation",
+        "how to apply fertilizer to rice",
+        "best practices for rice fertilizer",
+        "rice fertilizer application"
+      ],
+      "responses": ["For rice cultivation, apply a balanced NPK fertilizer in the ratio of 4:2:1 during the transplanting stage and top-dress with urea in the later growth stages as recommended for your specific region."],
+      "context": ""
+    },
+    {
+      "tag": "ORGANIC FARMING",
+      "patterns": [
+        "organic farming methods",
+        "how to practice organic farming",
+        "benefits of organic agriculture",
+        "organic farming in Telangana"
+      ],
+      "responses": ["Organic farming promotes the use of natural methods and avoids synthetic chemicals. It improves soil health, reduces environmental impact, and produces healthier crops. In Telangana, there is a growing interest in organic farming practices."],
+      "context": ""
+    }
+  ]
+}

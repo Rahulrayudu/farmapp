@@ -2,7 +2,7 @@
 import { Routes,Route,BrowserRouter } from 'react-router-dom';
 import Home from './routes/Home';
 import Service from './routes/Service';
-import About from './routes/About';
+import About from './components/About';
 import Contact from './routes/Contact';
 import FileUploadForm from './routes/FileUploadForm';
 import DistrictSelectionForm from './routes/DistrictSelectionForm';
